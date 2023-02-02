@@ -1,0 +1,39 @@
+.section-3 {
+  display: flex;
+  gap: 8%;
+  justify-content: center;
+  align-items: center;
+  height: 774px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #000000;
+  margin-top: 29px;
+}
+
+.section-3-text {
+  width: 29%;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  /* margin-top: 186px;
+  margin-left: 100px; */
+}
+
+.section-3-text > h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+}
+
+.section-3-text > button {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  color: #a02279;
+  margin-top: 57.55px;
+}
+
+.secondHero {
+  height: 575px;
+  width: 48%;
+}

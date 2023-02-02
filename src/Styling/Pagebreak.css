@@ -1,0 +1,32 @@
+.page-break {
+  display: flex;
+  /* width: 100%; */
+  height: 70px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 10px 100px;
+  gap: 264px;
+  margin-bottom: 19px;
+}
+
+.mbtoken,
+.metamask,
+.openSea {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.mbtoken > p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 27px;
+  color: #f7f7f7;
+}
+
+.metatext {
+  margin-left: 11px;
+}
+
+.openSea {
+  gap: 12px;
+}

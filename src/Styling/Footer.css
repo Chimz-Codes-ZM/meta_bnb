@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  height: 322px;
+
+  background: #1d1d1e;
+  color: white;
+}
+
+.footer-logos {
+  width: 16%;
+  height: 230px;
+  margin-left: 113px;
+  margin-top: 58px;
+  margin-right: 13%;
+}
+
+.socials {
+    display: flex;
+    gap: 32px;
+    margin: 96px 0px 55px 0px;
+}
+
+.footer-content {
+  display: flex;
+  width: 48%;
+  height: 169px;
+  gap: 31.5%;
+  margin-top: 63px;
+}
+
+.community,
+.places,
+.about-us {
+  color: #f1f3f9;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
