@@ -3,12 +3,13 @@ import logo1 from "../Images/Home/Navbar/logo1.png";
 import PopUp from "./PopUp";
 import { useState } from "react";
 
+
 function Navbar() {
 const [buttonPopup, setButtonPopup] = useState(false)
 
   return (
     <nav>
-      <img src={logo1} />
+      <img src={logo1} id="met-logo"/>
       <div className="nav-buttons">
         <div className="links">
 

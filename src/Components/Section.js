@@ -4,6 +4,7 @@ import Hero from "../Images/Home/Group 4028.png";
 function Section() {
   return (
     <div className="main-border">
+      
       <div className="hero-text">
         <p className="hero-text1">
           Rent a Place away from Home in the Metaverse
