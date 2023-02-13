@@ -4,19 +4,15 @@ body {
 
 .main-border {
   display: flex;
-  height: 459px;
-  width: 84.7%;
-  margin-left: 100px;
-  /* border: solid blue 2px; */
   gap: 99px;
-  padding: none;
-  margin-bottom: 67px;
+  padding-left: 100px;
+  padding-bottom: 67px;
 }
 
 .hero-text {
   width: 52.9%;
   height: 87%;
-  margin: 30px 0px;
+  /* margin: 30px 0px; */
 }
 
 .hero-text1 {
@@ -60,3 +56,13 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 760px) {
+  .main-border {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: auto;
+  }
+}

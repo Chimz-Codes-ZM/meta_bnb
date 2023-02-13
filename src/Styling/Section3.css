@@ -1,22 +1,23 @@
 .section-3 {
+  width: 100%;
   display: flex;
   gap: 8%;
   justify-content: center;
   align-items: center;
-  height: 774px;
+  /* height: 774px; */
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border: 1px solid #000000;
   margin-top: 29px;
+  padding: 5%;
 }
 
 .section-3-text {
-  width: 29%;
+  /* width: 29%; */
   color: white;
   font-weight: 400;
   font-size: 18px;
   line-height: 35px;
-  /* margin-top: 186px;
-  margin-left: 100px; */
+  
 }
 
 .section-3-text > h3 {
@@ -35,5 +36,12 @@
 
 .secondHero {
   height: 575px;
-  width: 48%;
+  /* width: 48%; */
+}
+
+@media screen and (max-width: 760px) {
+  .section-3 {
+    flex-direction: column;
+    gap: 20%;
+  }
 }
