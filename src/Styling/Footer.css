@@ -16,6 +16,11 @@
 
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .socials {
     display: flex;
     gap: 32px;
@@ -40,4 +45,5 @@
   line-height: 15px;
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }

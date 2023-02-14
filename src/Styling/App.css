@@ -14,6 +14,13 @@ nav {
         
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 #met-logo {
     max-width: 100%;
   height: auto;

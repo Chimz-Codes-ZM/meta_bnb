@@ -21,24 +21,24 @@ function Footer() {
       <div className="footer-content">
         <div className="community">
             <p style={{fontSize: '18px', lineHeight: '22px'}}><b>Community</b></p>
-            <a>NFT</a>
-            <a>Tokens</a>
-            <a>Landlords</a>
-            <a>Discord</a>
+            <a href="#">NFT</a>
+            <a href="#">Tokens</a>
+            <a href="#">Landlords</a>
+            <a href="#">Discord</a>
         </div>
         <div className="places">
-            <a style={{fontSize: '18px', lineHeight: '22px'}}><b>Places</b></a>
-            <a>Castle</a>
-            <a>Farms</a> 
-            <a>Beach</a>
-            <a>Learn more</a>
+            <p style={{fontSize: '18px', lineHeight: '22px'}}><b>Places</b></p>
+            <a href="#">Castle</a>
+            <a href="#">Farms</a> 
+            <a href="#">Beach</a>
+            <a href="#">Learn more</a>
         </div>
         <div className="about-us">
             <p style={{fontSize: '18px', lineHeight: '22px'}}><b>About us</b></p>
-            <a>Road map</a>
-            <a>Creators</a>
-            <a>Career</a>
-            <a>Contact us</a>
+            <a href="#">Road map</a>
+            <a href="#">Creators</a>
+            <a href="#">Career</a>
+            <a href="#">Contact us</a>
         </div>
       </div>
     </div>
