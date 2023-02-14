@@ -2,9 +2,6 @@ body {
     background-color: #f5f5f5;
 }
 
-* {
-    border: 2px solid red;
-}
 
 nav {
     display: flex;
@@ -47,7 +44,6 @@ button {
     /* max-width: 170px; */
     height: 48px;
     border-radius: 10px;
-    border: 2px solid red;
     background: #A02279;
     color: white;
     cursor: pointer;

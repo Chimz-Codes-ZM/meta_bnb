@@ -1,67 +1,43 @@
-body {
-  background-color: #f5f5f5;
-}
-
-* {
-  border: 2px solid red;
-}
-
-nav {
+.footer {
   display: flex;
-  height: 48px;
-  /* width: 86%;   */
-  padding: 43px 100px 125px 100px;
+  height: auto;
+  flex-wrap: wrap;
   justify-content: space-around;
-  gap: 2%;
-  /* flex-wrap: wrap; */
-      
+
+  background: #1d1d1e;
+  color: white;
 }
 
-#met-logo {
-  max-width: 100%;
-height: auto;
-width: auto\9;
+.footer-logos {
+  /* width: 16%; */
+  /* height: 230px; */
+  /* margin-left: 113px; */
+  margin-top: 58px;
+
 }
 
+.socials {
+    display: flex;
+    gap: 32px;
+    margin: 96px 0px 55px 0px;
+}
 
-
-.nav-buttons {
+.footer-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.links {
-  /* width: 626px; */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 48px;
-  margin-right: auto;
+  width: 50%;
+  /* height: 169px; */
+  gap: 25%;
+  margin-top: 63px;
   flex-wrap: wrap;
 }
 
-button {
-  /* max-width: 170px; */
-  height: 48px;
-  border-radius: 10px;
-  border: 2px solid red;
-  background: #A02279;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-
-}
-
-
-button:hover {
-  background-color: #64214c;
-  transition: 0.7s
-}
-
-button:not(:hover) {
-  background-color: #A02279;
-  transition: 0.7s;
+.community,
+.places,
+.about-us {
+  color: #f1f3f9;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
 }
