@@ -2,14 +2,25 @@ body {
     background-color: #f5f5f5;
 }
 
+* {
+    border: 2px solid red;
+}
+
 nav {
     display: flex;
     height: 48px;
     /* width: 86%;   */
     padding: 43px 100px 125px 100px;
-    justify-content: space-evenly;
-    gap: 10%;
+    justify-content: space-around;
+    gap: 2%;
+    /* flex-wrap: wrap; */
         
+}
+
+#met-logo {
+    max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 
@@ -17,7 +28,8 @@ nav {
 .nav-buttons {
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    width: 100%;
 }
 
 .links {
@@ -27,7 +39,8 @@ nav {
     align-items: flex-start;
     padding: 0px;
     gap: 48px;
-    margin-right: 48px;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
 
 button {

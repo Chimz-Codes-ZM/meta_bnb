@@ -1,5 +1,5 @@
 .section-3 {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   gap: 8%;
   justify-content: center;
@@ -34,14 +34,20 @@
   margin-top: 57.55px;
 }
 
-.secondHero {
-  height: 575px;
-  /* width: 48%; */
+.stacked-image {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
+
 
 @media screen and (max-width: 760px) {
   .section-3 {
     flex-direction: column;
     gap: 20%;
+  }
+
+  .stacked-image {
+    margin-top: 5%;
   }
 }

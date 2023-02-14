@@ -16,7 +16,7 @@ function Cards() {
         <p>Inspiration for your next adventure</p>
       </div>
       <div className="cards">
-        <div className="cards-row-1">
+        
           <div className="card1">
             <img src={card1} className="card1-img" />
             <div className="card-text">
@@ -84,13 +84,8 @@ function Cards() {
 
             <img src={stars} className="stars" />
           </div>
-        </div>
-      </div>
-
-      {/* SECOND ROW OF CARDS STARTS HERE */}
-
-      <div className="cards">
-        <div className="cards-row-1">
+        
+      
           <div className="card1">
             <img src={card4} className="card1-img" />
             <div className="card-text">
@@ -158,7 +153,7 @@ function Cards() {
 
             <img src={stars} className="stars" />
           </div>
-        </div>
+        
       </div>
     </div>
   );

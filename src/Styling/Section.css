@@ -4,8 +4,7 @@ body {
 
 .main-border {
   display: flex;
-  gap: 99px;
-  padding-left: 100px;
+  justify-content: space-around;
   padding-bottom: 67px;
 }
 
@@ -13,6 +12,7 @@ body {
   width: 52.9%;
   height: 87%;
   /* margin: 30px 0px; */
+  padding-bottom: 5%;
 }
 
 .hero-text1 {
@@ -54,6 +54,12 @@ body {
     border: none;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     color: white;
+}
+
+.main-border > div > img {
+  max-width: 100% ;
+  width: auto\9;
+  height: auto;
 }
 
 @media screen and (max-width: 760px) {

@@ -1,38 +1,67 @@
-.footer {
-  display: flex;
-  height: 322px;
+body {
+  background-color: #f5f5f5;
+}
 
-  background: #1d1d1e;
+* {
+  border: 2px solid red;
+}
+
+nav {
+  display: flex;
+  height: 48px;
+  /* width: 86%;   */
+  padding: 43px 100px 125px 100px;
+  justify-content: space-around;
+  gap: 2%;
+  /* flex-wrap: wrap; */
+      
+}
+
+#met-logo {
+  max-width: 100%;
+height: auto;
+width: auto\9;
+}
+
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.links {
+  /* width: 626px; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+button {
+  /* max-width: 170px; */
+  height: 48px;
+  border-radius: 10px;
+  border: 2px solid red;
+  background: #A02279;
   color: white;
+  cursor: pointer;
+  padding: 10px;
+
 }
 
-.footer-logos {
-  width: 16%;
-  height: 230px;
-  margin-left: 113px;
-  margin-top: 58px;
-  margin-right: 13%;
+
+button:hover {
+  background-color: #64214c;
+  transition: 0.7s
 }
 
-.socials {
-    display: flex;
-    gap: 32px;
-    margin: 96px 0px 55px 0px;
-}
-
-.footer-content {
-  display: flex;
-  width: 48%;
-  height: 169px;
-  gap: 31.5%;
-  margin-top: 63px;
-}
-
-.community,
-.places,
-.about-us {
-  color: #f1f3f9;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+button:not(:hover) {
+  background-color: #A02279;
+  transition: 0.7s;
 }

@@ -17,7 +17,7 @@ function Section3() {
       </div>
         
       <div className="secondHero">
-<img src={SecondHero}/>
+<img src={SecondHero} className="stacked-image"/>
       </div>
     </div>
   );
